@@ -1,5 +1,5 @@
 
-# 4 Contar tipos de caracteres:
+# 3 Contar tipos de caracteres:
 def mostrar_cantidad(contrasena) -> str:
     """muestra las cantidad y tipo de caracteres
         que contiene la contraseña ingresada por el usuario

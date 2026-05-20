@@ -71,11 +71,12 @@ def validar_seguridad(contrasena) -> str:
     cantidad_simbolos = contrasena
     buscar_letra = "abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXYZ"
     buscar_numero = "0123456789"
-    buscar_sim = "! “ # $ % &  ( ) * + , - . /"
+    buscar_sim = "!“#$%&()*+,-./"
     largo = 0
     letras = 0
     numero = 0
     simbolo = 0
+    evaluacion = ""
 
 
     for i in range(len(cantidad_letras)):

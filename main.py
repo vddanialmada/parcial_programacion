@@ -51,7 +51,7 @@ if menu == "1" or menu == "9":
                            
         case "2": # Validar nivel de seguridad
 
-            validar_seguridad(contrasena)
+            print(validar_seguridad(contrasena))
             
 
         case "3":# Contar tipos de caracteres

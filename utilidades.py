@@ -69,7 +69,6 @@ def buscar_caracter(contrasena):
                     posiciones = i
                     print(f"{posiciones}\n")
             
-    return
 
 
 
